@@ -2,6 +2,8 @@
 This project is prepared to translate a sentence in onther language on webpage using shortcut (Alt + m) or ConextMenu after select a sentence.
 
 
+Google translate api is used for translating content
+
 #Project Use Images
 ![Project Image](screenshot1.jpg)
 ![Project Image](screenshot2.jpg)
@@ -15,5 +17,7 @@ Install extension from localfolder
 
 After refresh you webpage and Select a sentence what you want translate
 then press Alt + m  or right click on selected text and click "SWP Traslator"
+
+
 
 
