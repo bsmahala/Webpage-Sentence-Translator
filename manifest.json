@@ -1,0 +1,22 @@
+{
+    "name": "SimplydevTranslator",
+    "homepage_url": "https://github.com/bsmahala/",
+    "description": "Webpage Sentence Translator web page using shortcut or ContextMenu by Birbal Singh Mahala",
+    "version": "1.0",
+    "permissions": [
+        "*://*/*", "tabs", "webNavigation", "activeTab", "contextMenus"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Simplydev Webpage Sentence Translator",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["contentscript.js"]
+    }],
+    "manifest_version": 2
+}
