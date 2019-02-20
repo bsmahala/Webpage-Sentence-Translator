@@ -1,4 +1,4 @@
-# react-redux-route-sass-login
+# Webpage text translator
 This project is prepared to translate a sentence in onther language on webpage using shortcut (Alt + m) or ConextMenu after select a sentence.
 
 
